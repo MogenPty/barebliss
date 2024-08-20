@@ -1,7 +1,10 @@
 {
   "name": "barebliss-web",
   "version": "1.0.0",
-  "authors": ["mogenpty", "themefisher"],
+  "authors": [
+    "mogenpty",
+    "themefisher"
+  ],
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "scripts": {
@@ -11,10 +14,9 @@
     "format": "prettier -w ."
   },
   "dependencies": {
-    "@astrojs/image": "^0.18.0",
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/rss": "^2.4.4",
-    "astro": "^2.10.15",
+    "astro": "^3.6.5",
     "astro-auto-import": "^0.4.2",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.1",
