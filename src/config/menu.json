@@ -6,61 +6,23 @@
     },
     {
       "name": "About",
-      "url": "/about"
+      "url":"/about"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Merch",
+      "url":"/merch"
     },
     {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
-      "url": "/how-it-works"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Career",
-          "url": "/career"
-        },
-
-        {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
-        }
-      ]
+      "name": "Rules & Regulations",
+      "url": "/rules-and-regulations"
     },
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
     }
   ],
 
@@ -74,12 +36,12 @@
       "url": "/contact"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Merch",
+      "url": "/merch"
     },
     {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Rules & Regulations",
+      "url": "/rules-and-regulations"
     }
   ]
 }

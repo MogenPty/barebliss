@@ -6,7 +6,7 @@ import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, location, locations, email, phones, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -46,12 +46,24 @@ const { copyright, location, email, phone, footer_description } = config.params;
               >{email}</a
             >
           </li>
-          <li>
-            <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
+          <!-- <li>
+            <a aria-label=`BareBliss Phone Number for ${location}` class="hover:text-primary hover:underline" href={`tel:${phone}`}
               >{phone}</a
             >
-          </li>
+          </li> -->
         </ul>
+        {locations.map((loc) => (
+          <div class="col-12 mt-3">
+            <p class="text-bold"><strong>{loc.area}</strong></p>
+            <ul>
+              {loc.email && <li>
+                <a class="hover:text-primary" href={`mailto:${loc.email}`}
+                  >{loc.email}</a>
+              </li>}
+              {loc.phone && <li><a class="hover:text-primary hover:underline" href={`tel:${loc.phone}`}>{loc.phone}</a></li>}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   </div>
