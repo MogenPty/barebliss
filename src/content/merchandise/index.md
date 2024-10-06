@@ -21,11 +21,11 @@ main_feature:
       cover_image: /images/merch/underwear_socks_pair.jpg
       description: Includes Underwear and Socks
     - name: BareBliss Underwear
-      price: 150.00
+      price: 180.00
       cover_image: /images/merch/underwear_set.jpg
       description: BareBliss Underwear His OR Hers, your choice.
     - name: BareBliss Socks
-      price: 150.00
+      price: 170.00
       cover_image: /images/merch/barebliss_socks.jpg
       description: BareBliss Socks His OR Hers, take your pick.
     - name: BareBliss Apron
