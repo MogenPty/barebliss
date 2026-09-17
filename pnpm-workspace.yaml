@@ -1,0 +1,8 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@sentry/cli': true
+  esbuild: true
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@astrojs/react@6.0.6'
+  - astro@7.3.3
